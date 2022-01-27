@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     private Transform player;
 
-    private float cameraRotation;
+    private float cameraRotation;       //current camera rotation
 
     private void Awake()
     {
